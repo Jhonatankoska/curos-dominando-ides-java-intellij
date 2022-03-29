@@ -1,12 +1,12 @@
 package br.com.dio;
 
-import br.com.dio.model.gato;
+import br.com.dio.model.Gato;
 
 import java.sql.SQLOutput;
 
 public class PrimeiroPrograma {
     public static void main(String[] args) {
-        gato gato = new gato();
+        Gato gato = new Gato();
 
         System.out.println(gato);
 
